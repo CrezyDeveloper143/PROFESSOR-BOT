@@ -528,7 +528,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("♻️ HΞLᎮ ♻️", callback_data="help"),
             InlineKeyboardButton("♻️ ΛBOUT ♻️", callback_data="about")
             ],[
-            InlineKeyboardButton("💲ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ💲", url="https://t.me/+r4mRpNgoJPIxZjE1")
+            InlineKeyboardButton("💲ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ💲", url="https://t.me/SHORTNER_API_SETUP")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.edit_message_media(
